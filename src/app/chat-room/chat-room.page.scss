@@ -1,3 +1,12 @@
+$colors: (
+  primary: #488aff,
+  secondary: #32db64,
+  danger: #f53d3d,
+  light: #f4f4f4,
+  dark: #222,
+  twitter: #55acee
+);
+
 page-chat-room {
   .user_name {
     color: #afafaf;
@@ -9,7 +18,7 @@ page-chat-room {
     margin-bottom: 4px !important;
   }
   .my_message {
-    // background: color($colors, primary) !important;
+    background: color($colors, primary) !important;
     color: #000 !important;
   }
   .other_message {

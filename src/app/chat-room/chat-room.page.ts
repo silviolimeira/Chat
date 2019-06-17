@@ -68,5 +68,14 @@ export class ChatRoomPage implements OnInit {
     //   duration: 2000
     // });
     // toast.present();
+    let toast = this.toastCtrl
+      .create({
+        message: msg,
+        duration: 2000
+      })
+      .then(toastData => {
+        console.log(toastData);
+        toastData.present();
+      });
   }
 }
